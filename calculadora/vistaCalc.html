@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="resultados.php" method="post">
+            <label for="number"><h2>Factorial</h2></label><br>
+            <input type="number" id="number" name="number"><br>
+            <input type="submit" value="Enviar"><br><br>
+        </form>
+    </div>
+    <div>
+        <form action="resultados.php" method="post">
+            <label for="num1"><h2>Suma</h2></label><br>
+            <input type="number" id="num1" name="num1"><br>
+            <input type="number" id="num2" name="num2"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+        <form action="resultados.php" method="post">
+            <label for="numprim"><h2>Primeros</h2></label><br>
+            <input type="number" id="numprim" name="numprim"><br>
+            <input type="submit" value="Enviar"><br><br>
+        </form>
+    <div>
+    </div>
+    <div>
+        <form action="resultados.php" method="GET">
+            <label for="type_oper">Introduce el tipo de operacion(Factorial, Suma, Primero)</label><br>
+            <input type="text" id="type_oper" name="type_oper"><br>
+            <label for="valuenum">Indica el valor</label><br>
+            <input type="number" id="valuenum" name="valuenum"><br><br>
+            <label for="valuenum2">Indica el valor 2</label><br>
+            <input type="number" id="valuenum2" name="valuenum2"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
