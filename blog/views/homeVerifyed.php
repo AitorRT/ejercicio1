@@ -15,7 +15,7 @@
             <li><a class="active" href="homeVerifyed.php">Inicio</a></li>
             <li><a href="about.html">Sobre mí</a></li>
             <li><a href="articles.html">Articulos</a></li>
-            <li ><a href="../controllers/profile.php">Mi perfil</a></li>
+            <li ><a href="profile.php">Mi perfil</a></li>
             <li style="float:right"><a href="endSession.html">Cerrar sesión</a></li>
         </ul>
     </nav>
